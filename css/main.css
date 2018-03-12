@@ -1,0 +1,43 @@
+@font-face {
+font-family: "Gotham";
+src: url(Gotham.otf);
+}
+
+@@font-face {
+font-family: "Mercury_Display_Roman";
+src: url(Mercury_Display_Roman.otf);
+}
+
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.site-container {
+    max-width: 1200px;
+}
+
+h1 {
+    text-align: left;
+    font-family: 'Gotham';
+    color: #252525;
+    font-size: 4rem;
+}
+
+h1 {
+    text-align: left;
+    font-family: 'Gotham';
+    color: #252525;
+    font-size: 3rem;
+}
+
+p {
+    font-family: 'Mercury_Display_Roman';
+    color: #464646;
+}
