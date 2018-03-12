@@ -8,7 +8,6 @@ font-family: "Mercury_Display_Roman";
 src: url(Mercury_Display_Roman.otf);
 }
 
-
 html {
     box-sizing: border-box;
 }
@@ -60,19 +59,7 @@ font-family: 'Mercury_Display_Roman';
 position: relative;
 background: #FFFFFF;
 text-align: center;
-border-bottom-right-radius: 8px;
-border-bottom-left-radius: 8px;
 }
-
-.wrap {
-  display: inline-block;
-  -webkit-box-shadow: 0 0 70px #fff;
-  -moz-box-shadow: 0 0 70px #fff;
-  box-shadow: 0 0 70px #fff;
-  margin-top: 40px;
-   padding-left: 1%;
-}
-
 
 a {
 	text-decoration: none;
@@ -116,7 +103,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px;
     text-decoration: none;
 }
 
