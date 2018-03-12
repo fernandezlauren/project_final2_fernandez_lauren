@@ -3,7 +3,7 @@ font-family: "Gotham";
 src: url(Gotham.otf);
 }
 
-@@font-face {
+@font-face {
 font-family: "Mercury_Display_Roman";
 src: url(Mercury_Display_Roman.otf);
 }
@@ -23,13 +23,7 @@ html {
     max-width: 1200px;
 }
 
-h1 {
-    text-align: left;
-    font-family: 'Gotham';
-    color: #252525;
-    font-size: 4rem;
-}
-
+/* styles */
 h1 {
     text-align: left;
     font-family: 'Gotham';
@@ -37,7 +31,94 @@ h1 {
     font-size: 3rem;
 }
 
+h2 {
+    text-align: left;
+    font-family: 'Gotham';
+    color: #252525;
+    font-size: 2rem;
+}
+
 p {
     font-family: 'Mercury_Display_Roman';
     color: #464646;
+    font-size: 1rem;
 }
+
+/* end styles */
+
+body {
+    background-color: #FFFFFF;
+}
+
+header {
+
+}
+
+/* NAV */
+
+nav {
+font-family: 'Mercury_Display_Roman';
+position: relative;
+background: #FFFFFF;
+text-align: center;
+border-bottom-right-radius: 8px;
+border-bottom-left-radius: 8px;
+}
+
+.wrap {
+  display: inline-block;
+  -webkit-box-shadow: 0 0 70px #fff;
+  -moz-box-shadow: 0 0 70px #fff;
+  box-shadow: 0 0 70px #fff;
+  margin-top: 40px;
+   padding-left: 1%;
+}
+
+
+a {
+	text-decoration: none;
+ 	color: #fff;
+ 	display: block;
+}
+
+
+
+ul {
+    list-style: none;
+    position: relative;
+    text-align: left;
+    background-color: #464646;
+    font-family: 'Mercury_Display_Roman';
+
+    /*margin: 0;
+    padding: 0;
+    overflow: hidden;
+      */
+}
+
+li {
+    float: left;
+}
+
+ul::after {
+	clear: both;
+}
+
+ul::before, ul::after {
+	content: " ";
+	display: table;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #FFFFE1;
+    color: #252525;
+}
+/*end NAV*/
