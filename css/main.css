@@ -29,6 +29,7 @@ h1 {
     font-family: 'Gotham';
     color: #252525;
     font-size: 3rem;
+    padding: 1%;
 }
 
 h2 {
@@ -36,12 +37,14 @@ h2 {
     font-family: 'Gotham';
     color: #252525;
     font-size: 2rem;
+    padding: 1%;
 }
 
 p {
     font-family: 'Mercury_Display_Roman';
     color: #464646;
     font-size: 1rem;
+    padding: 1%;
 }
 
 /* end styles */
@@ -76,6 +79,7 @@ a {
  	color: #0192B3;
  	display: block;
     font-family: 'Mercury_Display_Roman';
+    padding: 1%;
 }
 
 a:hover {
